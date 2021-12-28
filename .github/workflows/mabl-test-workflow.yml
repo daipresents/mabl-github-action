@@ -15,7 +15,7 @@ jobs:
         uses: mablhq/github-run-tests-action@v1
         env:
           MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.API_KEY_GITHUB }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
         with:
           application-id: jrMAwZAMF7Pn6cg8WUlgmQ-a
           environment-id: bIIfJiJ4lefJcKozgmNBPw-e
