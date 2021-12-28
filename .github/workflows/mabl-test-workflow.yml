@@ -6,7 +6,7 @@ jobs:
     name: mabl Test
     runs-on: ubuntu-latest
     environment: 
-      name: mabl sandbox (Production)
+      name: production
       url: https://sandbox.mabl.com/
     steps:
       - uses: actions/checkout@v2
