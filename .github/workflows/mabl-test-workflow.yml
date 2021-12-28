@@ -10,11 +10,7 @@ jobs:
       url: https://sandbox.mabl.com/
     steps:
       - uses: actions/checkout@v2
-      - name: echo!!!!
-        env:
-          SAMPLE_SECRET: ${{ secrets.SAMPLE_SECRET }}
-        run: echo "Access to environment variables. ${{ secrets.SAMPLE_SECRET}}"
-      - name: Functional test deployment
+      - name: Trigger mabl Deployment Event
         id: mabl-test-deployment
         uses: mablhq/github-run-tests-action@v1
         env:
