@@ -20,3 +20,5 @@ jobs:
         with:
           application-id: jrMAwZAMF7Pn6cg8WUlgmQ-a
           environment-id: bIIfJiJ4lefJcKozgmNBPw-e
+          plan-labels: |
+            Actions
